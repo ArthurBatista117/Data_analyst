@@ -15,7 +15,7 @@ def main():
 
     #graphs
     plt.title('What types of content are most common (Movie vs TV Show)?')
-    plt.bar(most_common.index, most_common.values, color=['skyblue', 'lightcoral'], width=0.25)
+    plt.bar(most_common.index, most_common.values, color=['#5CDCE0', '#855CE0'], width=0.25)
     plt.ylabel('Number of Titles')
     plt.xlabel('Type')
     plt.show()
